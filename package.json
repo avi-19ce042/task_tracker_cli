@@ -1,0 +1,22 @@
+{
+  "name": "task_tracker_cli",
+  "version": "1.0.0",
+  "description": "Custom CLI project for tracking tasks.",
+  "bin": {
+    "task-cli": "./index.js"
+},
+  "keywords": [
+    "Custom",
+    "CLI"
+  ],
+  "license": "ISC",
+  "author": "Aviral Sinha",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "commander": "^15.0.0"
+  }
+}
